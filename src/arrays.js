@@ -7,7 +7,7 @@ const arrayToCSVString = array => {
 };
 
 const csvStringToArray = string => {
-  return string.split(',');
+  return string.split(",");
 };
 
 const addToArray = (element, array) => {
@@ -39,10 +39,7 @@ const onlyEven = numbers => {
 };
 
 const removeNthElement2 = (index, array) => {
-  const firstHalf = array.slice(0, index);
-  const secondHalf = array.slice(index + 1);
-  const newArray = firstHalf.concat(secondHalf);
-  return newArray;
+  return array.filter(element => element !== array[index]);
 };
 
 const elementsStartingWithAVowel = strings => {
@@ -54,10 +51,7 @@ const removeSpaces = string => {
 };
 
 const sumNumbers = numbers => {
-  const totalValue = numbers.reduce((acc, num) => {
-    return acc + num;
-  });
-  return totalValue;
+  return numbers.reduce((acc, num) => acc + num);
 };
 
 const sortByLastLetter = strings => {

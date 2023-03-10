@@ -1,7 +1,7 @@
 const createPerson = (name, age) => {
   return {
-    name: name,
-    age: age
+    name,
+    age
   };
 };
 
@@ -34,15 +34,14 @@ const findHondas = cars => {
 };
 
 const averageAge = people => {
-  const calculateAverage = people.reduce((acc, person) => acc + person.age, 0) / people.length;
-  return calculateAverage;
+  return people.reduce((acc, person) => acc + person.age, 0) / people.length;
 };
 
 const createTalkingPerson = (name, age) => {
   return {
-    name: name,
-    age: age,
-    introduce: function introduce(person) {
+    name,
+    age,
+    introduce(person) {
       return `Hi ${person}, my name is ${this.name} and I am ${this.age}!`;
     }
   };

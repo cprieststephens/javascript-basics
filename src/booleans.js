@@ -1,28 +1,25 @@
 function negate(a) {
-  return a === false;
+  return !a;
 };
 
 function both(a, b) {
-  return a === true && b === true;
+  return a && b;
 };
 
 function either(a, b) {
-  return a === true || b === true;
+  return a || b;
 };
 
 function none(a, b) {
-  return a === false && b === false; 
-}
+  return !a && !b; 
+};
 
 function one(a, b) {
-  return (a === true && b === false) || (a === false && b === true);
+  return (a && !b) || (!a && b);
 };
 
 function truthiness(a) {
-  if (!a) {
-    return false;
-  } else {return true;
-  }
+  return !!a;
 };
 
 function isEqual(a, b) {
@@ -56,8 +53,8 @@ function startsWith(char, string) {
 function containsVowels(string) {
   if (string.match(/[aeiou]/gi)) {
     return true;
-  } else {return false;
   }
+    return false;
 };
 
 function isLowerCase(string) {

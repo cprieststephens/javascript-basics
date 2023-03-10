@@ -34,7 +34,6 @@ function absolute (a) {
   return Math.abs(a);
 }
 
-//Math.floor() only works with positive numbers. Math.trunc() also works with negative numbers.//
 function quotient (a, b) {
   return Math.trunc(a/b);
 }
