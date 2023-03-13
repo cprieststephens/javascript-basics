@@ -11,7 +11,7 @@ It is based on a repository of test cases and empty function definitions cloned 
 - Clone your copy of the repo using the command: `git clone git@github.com:*your-github-username*/javascript-basics.git`.
 
 ### Install the project dependencies
-Use the command `npm install` to download the `dependencies` and `devDependencies` for this project.
+Use the command `npm install` to download the project's dependencies and create a node_modules folder. 
 
 ### Run the test code
 Use the command `npm test` to run the Jest testing framework.
@@ -23,4 +23,4 @@ To run the tests for each group of katas, use the commands:
 - `npm test -- arrays`
 - `npm test -- objects`
 
-Authors: CommandShiftHQ and Camilla Priest-Stephens
+Authors: Camilla Priest-Stephens and CommandShiftHQ
