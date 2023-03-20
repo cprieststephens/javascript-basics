@@ -1,8 +1,8 @@
 # JavaScript Basics
 
-This repository contains a series of katas I completed as part of Command Shift bootcamp. I used JavaScript to write functions involving numbers, strings, booleans, arrays and objects.
+This repository contains a series of katas I completed using JavaScript as part of Command Shift bootcamp.
 
-It is based on a repository of test cases and empty function definitions cloned from: https://github.com/CommandShiftHQ/javascript-basics
+It is based on a repository of unit tests and empty function definitions cloned from: https://github.com/CommandShiftHQ/javascript-basics
 
 ## Getting started
 
@@ -23,4 +23,6 @@ To run the tests for each group of katas, use the commands:
 - `npm test -- arrays`
 - `npm test -- objects`
 
-Authors: Camilla Priest-Stephens and CommandShiftHQ
+Author: Camilla Priest-Stephens with guidance from Command Shift.
+
+This project was refactored following a code review by Command Shift tutor Szabina Kovacs.
