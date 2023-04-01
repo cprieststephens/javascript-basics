@@ -23,6 +23,4 @@ To run the tests for each group of katas, use the commands:
 - `npm test -- arrays`
 - `npm test -- objects`
 
-Author: Camilla Priest-Stephens with guidance from Command Shift.
 
-This project was refactored following a code review by Command Shift tutor Szabina Kovacs.
