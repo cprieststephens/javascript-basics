@@ -8,7 +8,7 @@ It is based on a repository of unit tests and empty function definitions cloned 
 
 ### Clone this repository
 - Create a fork of this repo.
-- Clone your copy of the repo using the command: `git clone git@github.com:*your-github-username*/javascript-basics.git`.
+- Copy the fork's git address and clone to your machine using `git clone`.
 
 ### Install the project dependencies
 Use the command `npm install` to download the project's dependencies and create a node_modules folder. 
